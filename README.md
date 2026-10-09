@@ -21,7 +21,7 @@ Requires Python 3 (tkinter is included with most Python installs).
 ```bash
 git clone git@github.com:YOUR-USERNAME/YOUR-REPO.git
 cd YOUR-REPO
-python3 main.py
+python3 golf.py
 ```
 
 ## Credits
