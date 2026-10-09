@@ -19,8 +19,8 @@ This project was mostly an excuse to practice:
 Requires Python 3 (tkinter is included with most Python installs).
 
 ```bash
-git clone git@github.com:YOUR-USERNAME/YOUR-REPO.git
-cd YOUR-REPO
+git clone https://github.com/NicolasBerthiaume/simple-golf-game.git
+cd simple-golf-game
 python3 golf.py
 ```
 
