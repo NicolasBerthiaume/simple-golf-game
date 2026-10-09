@@ -21,10 +21,6 @@ class SaveSystem:
             return
 
         self.write_course_to_file(course_name)
-        # this works but its inefficient (?) we're currently loading twice 
-        # once here and once in write_course_to_file
-        # need to evaluate if this is the best solution or not
-        # all_course_names = [c["course_name"] for c in self.load_all()]
         self.controls.refresh_saved_courses_list(self.get_all_course_names())
 
     def load_selected_course(self):
